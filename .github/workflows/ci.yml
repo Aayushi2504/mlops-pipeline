@@ -4,8 +4,9 @@ name: MLOps CI
 on:
   push:
     paths:
-      - 'mlops/**'
-
+      - '**.py'
+      - 'requirements.txt'
+      - '.github/workflows/ci.yml'
 jobs:
   test:
     runs-on: ubuntu-latest
