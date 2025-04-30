@@ -4,6 +4,7 @@ from sklearn.datasets import load_iris
 import pickle
 
 # Load dataset
+#loaded iris dataset
 X, y = load_iris(return_X_y=True)
 
 # Train model
